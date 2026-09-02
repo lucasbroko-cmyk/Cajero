@@ -210,7 +210,7 @@ function menuPrincipal() {
         usuarios = registrarUsuario(usuarios);
         break;
       case "3":
-        console.log("Gracias por usar Mi Plata.");
+        console.log("Gracias por usar Este cajero.");
         return;
       default:
         console.log("Opción inválida, intenta de nuevo.");
