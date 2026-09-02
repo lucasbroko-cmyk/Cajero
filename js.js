@@ -66,6 +66,7 @@ function iniciarSesion(usuarios) {
 
   if (usuario.bloqueado) {
     console.log("Cuenta bloqueada por 24 horas, comunícate con tu banco.");
+    alert("Usuario bloqueado");
     return null;
   }
 
